@@ -1,0 +1,163 @@
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: cadetblue;
+}
+
+.jacobs-music{
+    padding: 30px;
+    color: black;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    background-color: cadetblue;
+
+}
+
+.navbar-right{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navbar-left,.navbar-right{
+    display: flex;
+    width: 70%;
+}
+
+ul {
+    display: flex;
+    margin-right: 100px;
+    color: azure;
+    gap: 10px;
+}
+
+.first-section-fc {
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    height: 400px;
+}
+
+.LesOp{
+    padding-left: 440px;
+    margin: 80px;
+    font-size: xx-large;
+}
+
+.second-section-fc1 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+.images-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.caption-title{
+    margin-top: 10px;
+    text-align: center;
+    font-size: larger;
+}
+
+.caption-text{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.third-section-fc{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    height: 600px;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    background-color: rgb(1, 22, 79);
+}
+
+.book-a-lesson-title{
+    text-align: center;
+    margin-top: 50px;
+    color: aliceblue;
+    width: 800px;
+}
+
+.name-box, .su-button{
+    width: 300px;
+    margin-top: 20px;
+}
+
+.signup-container{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-top: 60px;
+}
+
+.contact-inputs{   
+    width: 400px;
+    height: 50px;
+    border: none;
+    outline: none;
+    font-weight: 500;
+    border-radius: 50px;
+    margin: 5px;
+    padding-inline: 20px;
+    margin-left: 190px;
+}
+
+.contact-inputs-message{
+    width: 440px;
+    height: 140px;
+    border: none;
+    outline: none;
+    font-weight: 500;
+    border-radius: 20px;
+    margin: 5px;
+    box-sizing: border-box;
+    padding-top:20px;
+    padding-left:20px;
+    margin-left: 190px;
+    
+}
+
+.su-btn{
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 430px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 190px;
+}
+
+.net-lesson{
+    margin-top: 20px;
+}
+
+.OL-description{
+    display: flex;
+}
+
+.bio {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    background-color: black;
+    color: white;
+}
