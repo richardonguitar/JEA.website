@@ -1,0 +1,315 @@
+*{
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url(Images/divazus-fabric-store-20do7HmDgC4-unsplash.jpg);
+}
+
+.navbar{
+  display: flex;
+  justify-content: flex-end;
+  /* background-color: rgba(255, 0, 0, 0.795); */
+
+}
+
+.navbar-right{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.navbar-left,.navbar-right{
+  display: flex;
+  width: 50%;
+}
+
+.jacobsenglishacademy{
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 60px;
+  margin-left: 7px;
+}
+
+.logo{
+  width: 70px; 
+  height: 70px;
+  margin-top: 40px;
+  margin-left: 20px;
+}
+
+iframe {
+  width: 700px; 
+  height: 315;
+  align-items: center;
+}
+
+.hamburger {
+  position: relative;
+  display: block;
+  width: 35px;
+  cursor: pointer;
+  appearance: none;
+  background: none;
+  outline: none;
+  border: none;
+  margin-right: 70px;
+  margin-top: 40px;
+}
+
+.hamburger .bar, .hamburger:after, .hamburger:before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 5px;
+  background-color: white;
+  margin: 6px 0px;
+  transition: 0.4s;
+}
+
+.hamburger.is-active:before {
+  transform: rotate(-45deg) translate(-8px, 6px);
+}
+
+.hamburger.is-active:after {
+  transform: rotate(45deg) translate(-9px, -8px);
+}
+
+.hamburger.is-active .bar{
+  opacity: 0;
+}
+
+.nav-menu {
+  position: fixed;
+  top: 0;
+  left: 100%;
+  width: 100%;
+  min-height: 100vh;
+  display: block;
+  z-index: 98;
+  background: url(Images/telephone-box.jpg);
+  background-size: cover;
+  padding-top: 200px;
+  transition: 0.4s;
+}
+
+.nav-menu.is-active {
+  left: 0;
+}
+
+.nav-menu a {
+  display: block;
+  width: 100%;
+  max-width: 200px;
+  margin: 0 auto 16px;
+  text-align: center;
+  margin-bottom: 16px;
+  padding: 12px 16px;
+  background-color: rgba(255, 0, 0, 0.78);
+  border-radius: 10px;
+
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.nav-menu a:hover{
+  background-color: rgba(255, 0, 0, 0.593);
+}
+
+ul {
+  display: flex;
+  margin-right: 100px;
+  color: azure;
+  gap: 10px;
+}
+
+.flex-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 130px;
+  height: 1000px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(0, 0, 255, 0.854);
+  color: white;
+  bottom: 0;
+  width: 40%;
+  padding: 20px;
+}
+
+.textbox {
+  width: 200px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 20px;
+}
+
+.loginbtn{
+  width: 210px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.third-section-fc{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    height: 600px;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    /* background-color: rgba(1, 22, 79, 0.148); */
+}
+
+.book-a-lesson-title{
+    text-align: center;
+    margin-top: 20px;
+    color: aliceblue;
+    width: 800px;
+}
+
+.name-box, .su-button{
+    width: 300px;
+    margin-top: 20px;
+}
+
+.contact-form-container{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-top: 60px;
+}
+
+.contact-inputs{   
+    width: 400px;
+    height: 50px;
+    border: none;
+    outline: none;
+    font-weight: 500;
+    border-radius: 50px;
+    margin: 5px;
+    padding-inline: 20px;
+    margin-left: 190px;
+}
+
+.contact-inputs-message{
+    width: 440px;
+    height: 140px;
+    border: none;
+    outline: none;
+    font-weight: 500;
+    border-radius: 20px;
+    margin: 5px;
+    box-sizing: border-box;
+    padding-top:20px;
+    padding-left:20px;
+    margin-left: 190px;
+    
+}
+
+.su-btn{
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 430px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 195px;
+}
+
+.net-lesson{
+    margin-top: 20px;
+}
+
+.OL-description{
+    display: flex;
+}
+
+.third-section-fc{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  height: 500px;
+  margin-top: 70px;
+  margin-bottom: 40px;
+  /* background-color: rgba(1, 22, 79, 0.148); */
+}
+
+.book-a-lesson-title{
+  text-align: center;
+  color: aliceblue;
+  width: 800px;
+}
+
+.name-box, .su-button{
+  width: 300px;
+  margin-top: 20px;
+}
+
+.contact-form-container{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin-top: 30px;
+}
+
+.contact-inputs{   
+  width: 400px;
+  height: 50px;
+  border: none;
+  outline: none;
+  font-weight: 500;
+  border-radius: 50px;
+  margin: 5px;
+  padding-inline: 20px;
+  margin-left: 190px;
+}
+
+.contact-inputs-message{
+  width: 440px;
+  height: 140px;
+  border: none;
+  outline: none;
+  font-weight: 500;
+  border-radius: 20px;
+  margin: 5px;
+  box-sizing: border-box;
+  padding-top:20px;
+  padding-left:20px;
+  margin-left: 190px;
+  
+}
+
+.su-btn{
+  margin-left: 10px;
+  margin-top: 10px;
+  width: 430px;
+  border-radius: 10px;
+  padding: 10px;
+  margin-left: 195px;
+}
+
+.net-lesson{
+  margin-top: 20px;
+}
+
+.OL-description{
+  display: flex;
+}
+
+.footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  background-color: black;
+  color: rgba(255, 255, 255, 0.912);
+}

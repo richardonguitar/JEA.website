@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book a Lesson</title>
+    <link rel="stylesheet" href="book-a-lesson.css">
+</head>
+<body>
+  <div class="navbar">
+    <div class="navbar-left">
+      <h1 class="jacobsenglishacademy">Jacobs English Academy</h1>
+      <img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/United-kingdom_flag_icon_round.svg/2048px-United-kingdom_flag_icon_round.svg.png">
+    </div>
+      <div class="navbar-right">
+        <button class="hamburger">
+          <div class="bar"></div> 
+            <nav class="nav-menu">
+              <a href="homepage.html">Home</a>
+              <a href="book-a-lesson.html">Book a Lesson</a>
+            </nav>
+          </div>
+        </button>
+      </div> 
+    </div>
+    <div class="third-section-fc">
+      <div class="third-section-left">
+          <h1 class="book-a-lesson-title">To book a lesson with me, please use the contact form below.</br> I look forward to hearing from you!</h1>
+          
+          <form action="https://api.web3forms.com/submit" method="POST" class="contact-form-container">
+
+              <input type="hidden" name="access_key" value="0e0f914e-e505-4bb3-ae5a-9a6aec8d7b86">
+          
+              <input type="text" name="name" placeholder="Name" class="contact-inputs" required>
+              <input type="email" name="email" placeholder="Email" class="contact-inputs" required>
+              <textarea name="message" placeholder="Message" class="contact-inputs-message"></textarea>
+              <button type="submit" class="su-btn">Submit Form</button>
+          </form>
+          </form>
+      </div>
+      <div class="third-section-right">
+      </div>
+  </div>
+  <script src="book-a-lesson.js"></script>
+  <div class="footer">
+    <span>© Jacobs English Academy 2024</span>
+</div>
+</body>
+</html>
