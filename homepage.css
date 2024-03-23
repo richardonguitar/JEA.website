@@ -28,6 +28,20 @@ body {
     margin-left: 15px;
 }
 
+.horse{
+    position: absolute;
+    width: 293px;
+    height: 100%;
+    left: 0;
+}
+
+.bigben{
+    position: absolute;
+    width: 283px;
+    height: 100%;
+    right: 0;
+}
+
 iframe {
     width: 700px; 
     height: 315;
@@ -118,9 +132,11 @@ iframe {
 }
 
 .first-section-fc {
+    position: relative;
     color: aliceblue;
     display: flex;
     justify-content: center;
+    flex-direction: row;
     height: 400px;
     margin-top: 50px;
 }
@@ -179,13 +195,10 @@ iframe {
     color: white;
     height: 80px;
     width: 100%;
-    background: url(Images/seamless-pattern-on-theme-uk-and-london-vector-30367684.jpg);
-    background-size: 200px;
+    background-color: black;
 }
 
 .st-text{
-    background-color: rgba(253, 0, 0, 0.763);
-    border-radius: 10px;
     width: 300px;
     text-align: center;
     font-family: cursive;
