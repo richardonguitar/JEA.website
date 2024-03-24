@@ -219,7 +219,6 @@ iframe {
     justify-content: center;
     align-items: center;
     margin-right: 200px;
-    margin-bottom: 100px;
 }
 
 .contact-inputs{   
@@ -232,6 +231,10 @@ iframe {
     margin: 5px;
     padding-inline: 20px;
     margin-left: 190px;
+}
+
+.calendar{
+    margin-bottom: 70px;
 }
 
 .contact-inputs-message{
@@ -319,7 +322,9 @@ iframe {
     }
 
     .calendar {
-        width: auto;
+        width: 95%;
+        height: 400px;
+        margin-right: 10px;
     }
 
     .nav-menu{
