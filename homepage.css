@@ -21,7 +21,7 @@ body {
     margin-left: 15px;
 }
 
-.logo{
+.logo1, .logo2{
     width: 70px; 
     height: 70px;
     margin-top: 40px;
@@ -277,8 +277,13 @@ iframe {
 
 @media only screen and (max-width: 600px) {
 
-    *{
-        width: auto;
+    html,body{
+        overflow-x: hidden;
+    }    
+
+    .hamburger{
+        right: 20px;
+        top: 20px;
     }
 
     .navbar {
@@ -286,28 +291,51 @@ iframe {
         align-items: center;
     }
 
-    .introvid{
-        width: 100%;
+    .logo2{
+        display: none;
     }
 
-    .logo {
-        margin: 10px 0;
+    .logo1{
+        display: absolute;
+        top: 0px;
+        margin-top: 15px;
+        margin-bottom: 20px;
     }
+
+    .introvid{
+        width: 100%;
+        margin-right: 10px;
+    }
+
     .jacobsenglishacademy {
         margin: 10px 0;
+        width: auto;
     }
 
     .images-container{
         display: flex;
         flex-direction: column;
+        width: auto;
     }
 
     .calendar {
         width: auto;
     }
 
-    .contact-inputs, .contact-inputs-message, .su-btn{
-        width: auto;
+    .nav-menu{
+        background-position: right -15px;    
+    }
+
+    .contact-inputs{
+        width: 250px;
+    }
+
+    .contact-inputs-message{
+        width: 285px;
+    }
+
+    .su-btn{
+        width: 285px;
     }
 
     .image-with-caption1, .image-with-caption2, .image-with-caption3{
@@ -316,7 +344,7 @@ iframe {
     }
 
     p{
-        width: 95%;
+        width: 94%;
     }
 
     img{
